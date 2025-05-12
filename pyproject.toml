@@ -1,0 +1,7 @@
+[project]
+name = "perverse"
+version = "0.1.0"
+description = "Mastodon bot that automatically responds to private messages using direct API calls"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["python-dotenv>=1.1.0", "requests", "websockets", "aiohttp"]
